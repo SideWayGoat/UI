@@ -1,0 +1,79 @@
+.container{
+    padding:3em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+.cards-container{
+    display: flex;
+    padding-top: 5em;
+}
+.cards-form{
+    max-width: 100%;
+    padding: 2em;
+}
+.form-group{
+    margin-bottom: 1em;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+.form-group input[type=text],.form-group input[type=password]
+.form-group input[type=number]{
+    width:100%;
+    padding: 0.5em 0.3em;
+    margin: 0.5em;
+    font-size: 1.2em;
+    border-radius: 2px;
+    justify-content: space-around;
+}
+.form-group-inline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.form-group-inline div{
+    max-width: 33%;
+}
+.form-group button{
+    padding: 0.5 em 1 em;
+    text-size-adjust: 4em;
+    color:green;
+    border:none;
+    outline:none;
+    border-radius: 2em;
+}
+.cards-grid{
+    max-width: 50%;
+    padding: 2em;
+}
+.card-row{
+    display: flex;
+    margin-bottom:0.2em;
+}
+.card-row-details{
+    background-color: #eee;
+    flex-grow: 1;
+    padding: 0.4em 1 em;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.2em;
+    cursor: pointer;
+}
+.card-row-action{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-row-action a{
+    display: block;
+    cursor:pointer;
+    padding: 0.5em;
+    background-color: #ef5350;
+    color:white;
+}
